@@ -2,7 +2,7 @@
 A collections of helper tools for twyn!
 
 ## TwynRestTemplateFactory
-Creates a sprint RestTemplate with twyn under-the-hood
+Creates a spring RestTemplate with twyn under-the-hood
 ```java
 Twyn twyn = Twyn.forTest();
 RestTemplate restTemplate = TwynRestTemplateFactory.create(twyn);
